@@ -1,0 +1,57 @@
+.card {
+  width: 600px;
+  height: 350px;
+  background-color: #c9eac8;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.CardIMG {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.CardIMG img {
+  width: 70%;
+}
+
+.CardNAME {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(136, 136, 136, 1);
+  text-align: center;
+}
+
+.CardDescriptionContainer {
+  display: flex;
+}
+
+.CardWatched {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(136, 136, 136, 1);
+  padding-left: 50px;
+  width: 30%;
+}
+
+.CardWatched img {
+  width: 40px;
+  position: relative;
+  top: 10px;
+}
+
+.cardButton {
+  text-align: right;
+  width: 70%;
+}
+.cardButton button {
+  border-radius: 35px;
+  border: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-right: 50px;
+  background-color: rgba(98, 194, 96, 1);
+  width: 200px;
+  height: 60px;
+}
