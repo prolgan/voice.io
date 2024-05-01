@@ -1,10 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Anton', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(98, 194, 96, 0.34);
 }
 
 code {
@@ -12,5 +11,106 @@ code {
     monospace;
 }
 
+.Login {
+  text-align: center;
+}
 
+.navigation {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
 
+.left-part {
+  margin-left: 10px; 
+}
+
+.right-part {
+  margin-right: 20px;
+}
+
+.voice {
+  margin: 20px;
+  height: auto;
+}
+
+.links {
+  display: flex;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.Login-logo {
+  height: 150px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  font-family: 'Anton', sans-serif;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #B1D2B1; 
+  border: 1px solid #62C260;
+  box-shadow: inset 0 3px 5px rgba(97, 97, 97, 0.5);
+  width: 350px;
+  height: 30px;
+ 
+}
+
+.forgot-password-link {
+  color: #C3C3C3;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.login-form button {
+  font-family: 'Anton', sans-serif;
+  background-color: #62C260;
+  width: 152px;
+  height: 44.62px;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170%;
+  background-color: #5C795B;
+  clip-path: ellipse(100% 50% at 50% 0%);
+  z-index: -1;
+}
