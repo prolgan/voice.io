@@ -8,16 +8,12 @@ function Login() {
     <div className="Login">
       <div className="background"></div>
       <div className="navigation">
-        <div className='left-part'>
-          <img src={voice} className="voice" alt="voice.io" />
-        </div>
-        <div className='right-part'>
-          <div className="links">
-            <a href="/">BALSOŠANA</a>
-            <a href="/">TĒMAS</a>
-            <a href="/">INFORMĀCIJA</a>
-            <a href="/">KONTAKTI</a>
-          </div>
+        <img src={voice} className="voice" alt="voice.io" />
+        <div className="links">
+          <a href="/">BALSOŠANA</a>
+          <a href="/">TĒMAS</a>
+          <a href="/">INFORMĀCIJA</a>
+          <a href="/">KONTAKTI</a>
         </div>
       </div>
       <header className="Login-header">

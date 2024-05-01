@@ -17,25 +17,18 @@ code {
 
 .navigation {
   display: flex;
-  justify-content: space-between; 
-  align-items: center;
-}
-
-.left-part {
-  margin-left: 10px; 
-}
-
-.right-part {
-  margin-right: 20px;
-}
-
-.voice {
-  margin: 20px;
-  height: auto;
 }
 
 .links {
-  display: flex;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.voice {
+  position: absolute;
+  margin: 20px;
 }
 
 .navigation a {
