@@ -2,7 +2,7 @@ import React from 'react'
 import imgVoice from '../Assets/testVoice.png'
 import watched from '../Assets/watched.svg'
 import '../css/Card.css'
-
+///sdasd
 function Card() {
   return (
     <div class="card">
