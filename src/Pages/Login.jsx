@@ -1,11 +1,11 @@
 import React from 'react';
-import '../index.css'; 
+import '../Pages/login.css';
 import logo from '../Assets/logo_small.png'; 
 
 function Login() {
   return (
     <div className="Login">
-      <header className="Login-header">
+      <header className="Login-header two-tone-background">
         <div className="logo-container">
           <img src={logo} className="Login-logo" alt="logo" />
         </div>
