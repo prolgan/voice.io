@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(98, 194, 96, 0.34);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .Main {
+    text-align: center;
+  }
+  
+  .Main-navigation {
+    display: flex;
+  }
+  
+  .Main-links {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .Main-voice {
+    position: absolute;
+    margin: 20px;
+  }
+  
+  .Main-navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .Main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Main-logo-container {
+    height: 80px; 
+    width: auto; 
+    text-align: left; 
+    width: 100%; 
+}
+  
+.Main-logo {
+    height: 40px;
+    width: auto; 
+    display: block; 
+    margin-left: 0; 
+    margin-top: 500px; 
+}
+
+  .Main-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170%;
+    background-color: #355635;
+    clip-path: ellipse(100% 50% at 50% 0%);
+    z-index: -1;
+  }
+  
+  .small-logo {
+    margin-top: 150px;
+    margin-left: 200px;
+    height: 150px;
+    width: auto; 
+}
+
+.right-image-container {
+    position: absolute;
+    top: 0%; 
+    right: 0; 
+    width: 700px; 
+    z-index: -1;
+}
+
+.right-side-image {
+    width: 100%; 
+    height: auto; 
+    z-index: -1;
+}
+
+.button-top-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    position: absolute; 
+    top: 30px;
+    right: 0;
+    width: 100%; 
+    z-index: 10; 
+}
+
+.green-button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 20px;
+    margin-left: 10px; 
+    font-weight: bold; 
+    cursor: pointer; 
+}
+
+.green-button:hover {
+    background-color: #367c39;
+}
+
+
+.large-vote-button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    padding: 20px 40px; 
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer; 
+    display: block; 
+    margin-left: 400px; 
+    margin-top: 40px;
+    transition: background-color 0.3s; 
+}
+
+.large-vote-button:hover {
+    background-color: #367c39; 
+}
+
+.text-and-button-container {
+    text-align: left;
+    margin-top: 20px; /* Space from the top */
+}
