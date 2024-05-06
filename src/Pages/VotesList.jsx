@@ -7,6 +7,7 @@ function VotesList() {
   return (
     <div class="VotesList">
       <div class="Header">
+        <div class="background"></div>
         <div class="HeaderImg">
           <a href="Login">
             <img src={logo}></img>
